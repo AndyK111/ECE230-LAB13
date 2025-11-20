@@ -14,4 +14,13 @@ onehot OHS
     .S(led[6:2])
 );
 
+binary BS
+(
+    .W(sw),
+    .CLK(btnC),
+    .RST(btnU),
+    .Z(led[1]),
+    .S(led[9:7])
+);
+
 endmodule
